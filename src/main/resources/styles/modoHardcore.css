@@ -1,0 +1,42 @@
+
+#panel {
+    -fx-background-color: linear-gradient(to bottom, #1a1a1a, #000000);
+}
+
+#etiquetaRonda {
+    -fx-text-fill: #bbbbbb;
+    -fx-font-family: "Consolas";
+    -fx-font-size: 16px;
+}
+
+.label {
+    -fx-font-family: "Garamond";
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+    -fx-text-fill: #da1f1f;
+    -fx-effect: dropshadow(gaussian, black, 4, 0.5, 0, 1);
+}
+
+#botonReiniciar {
+    -fx-background-color: linear-gradient(#444444, #222222);
+    -fx-text-fill: #ffcc00;
+    -fx-font-family: "Verdana";
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #ffcc00;
+    -fx-border-width: 2px;
+}
+
+#botonReiniciar:hover {
+    -fx-background-color: linear-gradient(#555555, #333333);
+    -fx-text-fill: white;
+}
+
+#etiquetaAviso {
+    -fx-text-fill: #eaeaea;
+    -fx-font-family: "Courier New";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}

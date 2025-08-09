@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="360.0" prefWidth="287.0" stylesheets="@../styles/historial.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HistorialController">
+
+    <TableView fx:id="tablaResultados" layoutX="2.0" prefHeight="360" prefWidth="413.0">
+        <columns>
+            <TableColumn fx:id="colFecha" prefWidth="150" text="Fecha" />
+            <TableColumn fx:id="colModo" prefWidth="100" text="Dificultad" />
+            <TableColumn fx:id="colRondas" prefWidth="80" text="Rondas" />
+            <TableColumn fx:id="colResultado" prefWidth="80" text="Resultado" />
+
+        </columns>
+    </TableView>
+</AnchorPane>

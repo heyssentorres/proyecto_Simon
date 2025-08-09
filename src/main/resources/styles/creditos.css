@@ -1,0 +1,34 @@
+.root {
+    -fx-background-color: #1e1e1e;
+    -fx-padding: 40;
+}
+
+.label {
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Arial";
+}
+
+.label:first-of-type {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-underline: true;
+    -fx-text-fill: #ffcc00;
+}
+
+.button {
+    -fx-background-color: #ffcc00;
+    -fx-text-fill: #1e1e1e;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #ffd633;
+}
+
+.button:pressed {
+    -fx-background-color: #e6b800;
+}

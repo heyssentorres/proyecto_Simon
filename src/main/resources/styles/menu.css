@@ -1,0 +1,49 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
+    -fx-font-family: "Georgia", "Times New Roman", serif;
+}
+
+.label {
+    -fx-text-fill: #d0b36a; /* dorado tenue */
+    -fx-font-size: 24px;
+    -fx-effect: dropshadow(gaussian, black, 4, 0.5, 2, 2);
+}
+
+.button {
+    -fx-background-color: #262626;
+    -fx-text-fill: #cccccc;
+    -fx-border-color: #444;
+    -fx-border-width: 2;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, black, 2, 0.3, 1, 1);
+}
+
+.button:hover {
+    -fx-background-color: #444444;
+    -fx-text-fill: #ffffff;
+}
+
+.menubutton {
+    -fx-background-color: #1f1f1f;
+    -fx-text-fill: #aaaaaa;
+    -fx-border-color: #555;
+    -fx-border-width: 2;
+    -fx-font-size: 14px;
+}
+
+.menubutton:hover {
+    -fx-background-color: #333333;
+    -fx-text-fill: #ffffff;
+}
+
+.menu-item {
+    -fx-background-color: #2a2a2a;
+    -fx-text-fill: #dddddd;
+    -fx-font-size: 13px;
+}
+
+.menu-item:focused {
+    -fx-background-color: #555555;
+    -fx-text-fill: white;
+}

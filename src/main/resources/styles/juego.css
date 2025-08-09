@@ -1,0 +1,64 @@
+
+#panel {
+    -fx-background-color: linear-gradient(to bottom, #1a1a1a, #000000);
+    -fx-border-color: #5a4c3c;
+    -fx-border-width: 6px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+
+.label {
+    -fx-font-family: "Georgia", "Times New Roman", serif;
+    -fx-text-fill: #d2b48c;
+}
+
+
+.label[text="Simon Dice"] {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #cfa85d;
+    -fx-effect: dropshadow( gaussian , #000000 , 3, 0.5 , 0 , 1 );
+}
+
+
+#etiquetaRonda, #etiquetaRecord {
+    -fx-font-size: 16px;
+    -fx-text-fill: #999999;
+    -fx-font-family: "Consolas", monospace;
+}
+
+#etiquetaAviso {
+    -fx-font-size: 20px;
+    -fx-text-fill: #c9761b;
+    -fx-font-family: "Courier New", monospace;
+}
+
+
+#botonReiniciar, #botonReiniciarRecord, #botonFacil, #botonNormal, #botonDificil{
+        -fx-font-size: 14px;
+    -fx-font-family: "Verdana";
+    -fx-background-color: #222;
+    -fx-text-fill: #c2c2c2;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #444;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75), 3, 0.2, 0, 1);
+}
+
+#botonReiniciarRecord {
+    -fx-text-fill: #888;
+    -fx-font-size: 16px;
+}
+
+
+#velocidadBox {
+    -fx-padding: 5;
+    -fx-background-color: rgba(34, 34, 34, 0.4);
+    -fx-border-color: #555;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}

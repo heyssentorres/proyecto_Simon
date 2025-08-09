@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="panel" prefHeight="580.0" prefWidth="400.0" stylesheets="@../styles/modoHardcore.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ModoHardcoreController">
+
+    <Label fx:id="etiquetaRonda" layoutX="14.0" layoutY="21.0" text="Ronda: 1" />
+
+    <!-- Botones (distribuidos en 2 columnas de 4) -->
+    <Button fx:id="rojo" layoutX="30.0" layoutY="56.0" onAction="#manejarColor" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #FF3B3B;" />
+    <Button fx:id="verde" layoutX="220.0" layoutY="56.0" onAction="#manejarColor" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #7FFF00;" />
+
+    <Button fx:id="azul" layoutX="30.0" layoutY="166.0" onAction="#manejarColor" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #1E90FF;" />
+    <Button fx:id="amarillo" layoutX="220.0" layoutY="166.0" onAction="#manejarColor" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #FFD700;" />
+
+    <Button fx:id="naranja" layoutX="30.0" layoutY="276.0" onAction="#manejarColor" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #FFA500;" />
+    <Button fx:id="morado" layoutX="220.0" layoutY="276.0" onAction="#manejarColor" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #9370DB;" />
+
+    <Button fx:id="cian" layoutX="30.0" layoutY="386.0" onAction="#manejarColor" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: blue;" />
+    <Button fx:id="rosa" layoutX="220.0" layoutY="386.0" onAction="#manejarColor" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #FF69B4;" />
+
+    <Label layoutX="106.0" layoutY="13.0" text="Modo Hardcore" textFill="#da1f1f">
+        <font>
+            <Font name="Times New Roman" size="27.0" />
+        </font>
+    </Label>
+
+    <Button fx:id="botonReiniciar" layoutX="156.0" layoutY="534.0" onAction="#ReiniciarJuego" text="Reiniciar" />
+
+    <Pane layoutX="161.0" layoutY="499.0" prefHeight="25.0" prefWidth="80.0">
+      <children>
+           <Label fx:id="etiquetaAviso" layoutY="-5.0" prefHeight="35.0" prefWidth="92.0" text="Tu turno">
+               <font>
+                   <Font size="20.0" />
+               </font>
+           </Label>
+      </children>
+    </Pane>
+
+</AnchorPane>
